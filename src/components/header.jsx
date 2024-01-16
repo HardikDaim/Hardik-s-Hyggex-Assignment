@@ -10,10 +10,8 @@ export default function Navbar({ picturePath }) {
               to="/"
               className="flex items-center md:gap-x-12 mr-7 cursor-pointer"
             >
-            <img src="/logo.jpg" height="100px" width="200px"></img>
+              <img src="/logo.jpg" height="100px" width="200px"></img>
             </div>
-
-       
 
             <div className="flex items-center ml-7">
               <div className="hidden md:flex gap-x-5 md:gap-x-5">

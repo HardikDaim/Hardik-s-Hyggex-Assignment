@@ -115,7 +115,11 @@ export default function Main() {
       </div>
       <div className="flex justify-center">
         <div width="600" height="350" className="relative">
-          <canvas width="600" height="350" className="bg-gradient-to-r from-blue-500 to-blue-800 rounded-2xl">
+          <canvas
+            width="600"
+            height="350"
+            className="bg-gradient-to-r from-blue-500 to-blue-800 rounded-2xl"
+          >
             {/* Your canvas content goes here */}
           </canvas>
           <div className="absolute top-3 left-2 m-4">
@@ -317,7 +321,7 @@ export default function Main() {
         </div>
 
         <div className=" flex items-center ">
-          <div className="mr-1" >
+          <div className="mr-1">
             <svg
               viewBox="0 0 24 24"
               height="50px"
